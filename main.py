@@ -6,6 +6,7 @@ lunch_option = {"vis_a_vis": {"vegetarian": True, "just_on_friday": False, "clos
                 "asian": {"vegetarian": True, "just_on_friday": False, "close_on_monday": False},
                 "la_lucha": {"vegetarian": True, "just_on_friday": False, "close_on_monday": False},
                 "kuhbar": {"vegetarian": True, "just_on_friday": False, "close_on_monday": False},
+                "haroun_s": {"vegetarian": True, "just_on_friday": False, "close_on_monday": False},
                 "l_osteria": {"vegetarian": True, "just_on_friday": True, "close_on_monday": False}}
 
 lunch_option_vegetarian = {k: v for k, v in lunch_option.iteritems() if v["vegetarian"]}
